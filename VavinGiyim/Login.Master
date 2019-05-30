@@ -139,24 +139,24 @@ display:block;
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+ <%--   <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
 </head>
 <body>
     <form id="form1" runat="server" style="width:100%;" >
       <div>
            <div id="Part1" style="background:#eeeeee;  text-align:center; margin-bottom:10px;   height:25px" >
                
-           <a href="WebForm1.aspx"><asp:Image ID="MüsteriBilgileri"  runat="server" Height="17px"   src="images/MüsteriBilgileri.png" Width="17px"  /></a>
+           <a href="Anasayfa2.aspx"><asp:Image ID="MüsteriBilgileri"  runat="server" Height="17px"   src="images/MüsteriBilgileri.png" Width="17px"  /></a>
             &nbsp;&nbsp;&nbsp;
-            <asp:Image ID="Siparisler" runat="server" Height="17px"  src="images/Siparisler.png"  />
+           <a href="Siparisler.aspx"> <asp:Image ID="Siparisler" runat="server" Height="17px"  src="images/Siparisler.png"  /></a>
                &nbsp;&nbsp;
-               <asp:Image ID="Menu" runat="server" Height="17px"  src="images/Menu.png"  /> 
+         <a href="index.php">     <asp:Image ID="Menu" runat="server" Height="17px"  src="images/Menu.png"  /> </a> 
              </div>
 
 
             <div ID="Part2" style="width:100%; display:inline; padding-left:3%; background-color:white; " >
-       <label style="font-size:40px; width:16%; height:44px;">VAVİN</label>
+      <a href="Anasayfa2.php" style="text-decoration:none; text-decoration-color:black; color:black;"> <label style="font-size:40px; color:black; width:16%; height:44px;">VAVİN</label></a>
              <a style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
              <a style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
                               
@@ -177,23 +177,23 @@ display:block;
         <li><a >KADIN</a>
              <ul class="altmenu" style="margin-left:375px;">
 
-        <li ><a>Kaban Ve Mont</a></li>
-        <li ><a>Triko Ve Kaza</a></li>  
-        <li ><a>Yelek Ve Hırka</a></li>
-        <li ><a>Elbise</a></li>
-        <li ><a>Sweat</a></li>
-        <li ><a>Gömlek</a></li>          
+          <li ><a href="KatKadin.aspx" style="text-decoration:none;">Kaban Ve Mont</a></li>
+        <li ><a href="KatKadin.aspx"style="text-decoration:none;">Triko Ve Kaza</a></li>  
+        <li ><a href="KatKadin.aspx"style="text-decoration:none;">Yelek Ve Hırka</a></li>
+        <li ><a href="KatKadin.aspx"style="text-decoration:none;">Elbise</a></li>
+        <li ><a href="KatKadin.aspx"style="text-decoration:none;">Sweat</a></li>
+        <li ><a href="KatKadin.aspx"style="text-decoration:none;">Gömlek</a></li>          
              </ul>
         </li>
          
         <li><a >Erkek</a>
              <ul class="altmenu" style="margin-left:375px;">
-        <li ><a>Kot Ceket</a></li>  
-        <li ><a>Kaban Ve Mont</a></li>
-        <li ><a>Sweat</a></li>
-        <li ><a>Triko Ve Kazak</a></li>
-        <li ><a>Gömlek</a></li> 
-        <li ><a>Ceket</a></li>
+        <li ><a href="KatErkek.aspx"style="text-decoration:none;">Kot Ceket</a></li>  
+        <li ><a href="KatErkek.aspx"style="text-decoration:none;">Kaban Ve Mont</a></li>
+        <li ><a href="KatErkek.aspx"style="text-decoration:none;">Sweat</a></li>
+        <li ><a href="KatErkek.aspx"style="text-decoration:none;">Triko Ve Kazak</a></li>
+        <li ><a href="KatErkek.aspx"style="text-decoration:none;">Gömlek</a></li> 
+        <li ><a href="KatErkek.aspx"style="text-decoration:none;">Ceket</a></li>
  </ul>
             <li><a >Ayakkabı</a>
              <ul class="altmenu" style="margin-left:375px;">
@@ -230,8 +230,8 @@ display:block;
            
            
         </div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <%--<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>--%>
        <div style="padding-top:2%;  width:100%; height:100%;">
            <Center> <asp:Image ID="Yellow_Part"  runat="server"   src="/images/Yellow_Part.png" Width="98%"  />
 

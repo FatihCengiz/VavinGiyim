@@ -1,4 +1,6 @@
-﻿<%@ Page Title="" Language="C#"  AutoEventWireup="true" CodeBehind="KatKadin.aspx.cs" Inherits="VavinGiyim.KatKadin" %>
+﻿<%@ Page Title="" Language="C#"AutoEventWireup="true" CodeBehind="Anasayfa2.aspx.cs" Inherits="VavinGiyim.Anasayfa2" %>
+
+
 <!DOCTYPE html>
 
 <html>
@@ -137,8 +139,7 @@ display:block;
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <script src="Scripts/jquery-3.0.0.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
- <%--   <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>--%>
+
 </head>
 <body>
     <form id="form1" runat="server" style="width:100%;" >
@@ -228,25 +229,27 @@ display:block;
            
            
         </div>
-         <div style="padding-top:0px; width:100%; height:100%;  background-color:white">
-      
-       
-          <center>    <asp:Image ID="Image2"  runat="server"   src="/images/fitre.png" Width="92%" Height="120px"   /> <br /><br /></center>
+       <div style="padding-top:0px; width:100%; height:100%;  background-color:#eeeeee;">
+     
+      <center>   
+        <asp:Image ID="A_Resim1"    runat="server"   src="/images/A_Resim1.png" Width="98%" Height="400px"   /></center>             
+            <br /> 
          
             
-     <center>     <a href="WomanPage.aspx">   <asp:Image ID="A_Resim2"  runat="server"   src="/images/k1.png" Width="47%" Height="500px"   /> </a> 
-                     <a href="WomanPage.aspx">    <asp:Image ID="Image1"  runat="server"   src="/images/k2.png" Width="47%" Height="500px"   /> </a> 
-     </center>
+     <center>         <asp:Image ID="A_Resim2"  runat="server"   src="/images/A_Resim2.png" Width="98%" Height="500px"   />  </center>
           <br />                                                                    
-      <center>        <asp:Image ID="A_Resim3"  runat="server"   src="/images/k3.png" Width="47%" Height="500px"   />  
-                  <asp:Image ID="Image3"  runat="server"   src="/images/k4.png" Width="47%" Height="500px"   />  </center>
+      <center>        <asp:Image ID="A_Resim3"  runat="server"   src="/images/A_Resim3.png" Width="98%" Height="450px"   />  </center>
+          <br />                                                                   
+       <center>       <asp:Image ID="A_Resim4"  runat="server"   src="/images/A_Resim4.png" Width="98%" Height="430px"   /> </center>
           <br />                                                                  
-       <center>       <asp:Image ID="A_Resim4"  runat="server"   src="/images/k5.png" Width="47%" Height="500px"   /> 
-                 <asp:Image ID="Image4"  runat="server"   src="/images/k6.png" Width="47%" Height="500px"   /> </center>
-          <br />       <br />        <br />                                                                   
-        
-        
+         <center>     <asp:Image ID="A_Resim5"  runat="server"   src="/images/A_Resim5.png" Width="98%" Height="400px"   /> </center>
+          <br />                                                                    
+           <center>   <asp:Image ID="A_Resim6"  runat="server"   src="/images/A_Resim6.png" Width="98%" Height="430px"   />  </center>
 
+              
+
+                   
+        </div>
        <div style="padding-top:2%;  width:100%; height:100%;">
            <Center> <asp:Image ID="Yellow_Part"  runat="server"   src="/images/Yellow_Part.png" Width="98%"  />
 
@@ -329,4 +332,4 @@ for (i = 0; i < acc.length; i++) {
 </html>
 
 
-   
+

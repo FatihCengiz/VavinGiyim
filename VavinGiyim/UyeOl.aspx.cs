@@ -21,12 +21,15 @@ namespace VavinGiyim
 
         }
         protected void Giris_Click(object sender, ImageClickEventArgs e)
-
-        {
-
-            Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "Başlık", "<script>alert('Üye Olundu');</script>");
-
+        {            
+            if (sifre1.Text == sifre2.Text)
+            {
+                Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "Başlık", "<script>alert('Üye Olundu');</script>");
+                Response.Redirect("Login.aspx");
+            }
+            else
+            {
+            }
         }
-
     }
 }

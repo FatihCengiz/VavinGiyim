@@ -10,7 +10,7 @@
 namespace VavinGiyim {
     
     
-    public partial class Favorilerim {
+    public partial class Anasayfa2 {
         
         /// <summary>
         /// form1 denetimi.
@@ -94,76 +94,58 @@ namespace VavinGiyim {
         protected global::System.Web.UI.WebControls.Image Search;
         
         /// <summary>
-        /// MusteriBilgileriB denetimi.
+        /// A_Resim1 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton MusteriBilgileriB;
+        protected global::System.Web.UI.WebControls.Image A_Resim1;
         
         /// <summary>
-        /// FavorilerimB denetimi.
+        /// A_Resim2 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton FavorilerimB;
+        protected global::System.Web.UI.WebControls.Image A_Resim2;
         
         /// <summary>
-        /// Adres denetimi.
+        /// A_Resim3 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Adres;
+        protected global::System.Web.UI.WebControls.Image A_Resim3;
         
         /// <summary>
-        /// SiparislerB denetimi.
+        /// A_Resim4 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton SiparislerB;
+        protected global::System.Web.UI.WebControls.Image A_Resim4;
         
         /// <summary>
-        /// Odulpuan denetimi.
+        /// A_Resim5 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Odulpuan;
+        protected global::System.Web.UI.WebControls.Image A_Resim5;
         
         /// <summary>
-        /// SifreDegistir denetimi.
+        /// A_Resim6 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton SifreDegistir;
-        
-        /// <summary>
-        /// Cikis denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton Cikis;
-        
-        /// <summary>
-        /// txtU denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik üretilmiş alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtU;
+        protected global::System.Web.UI.WebControls.Image A_Resim6;
         
         /// <summary>
         /// Yellow_Part denetimi.

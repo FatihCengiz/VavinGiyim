@@ -109,7 +109,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Anasayfam.aspx" />
+    <Content Include="Anasayfa2.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -169,6 +169,7 @@
     <Content Include="images\Yellow_Part.png" />
     <Content Include="images\yenimusteri.png" />
     <Content Include="images\ÖdülPuan.png" />
+    <Content Include="index.aspx" />
     <Content Include="KatErkek.aspx" />
     <Content Include="KatKadin.aspx" />
     <Content Include="Login.aspx" />
@@ -199,8 +200,8 @@
     <Content Include="Sepet.aspx" />
     <Content Include="Siparisler.aspx" />
     <Content Include="UyeOl.aspx" />
-    <Content Include="WebForm1.aspx" />
     <Content Include="Login.Master" />
+    <Content Include="WebForm1.aspx" />
     <Content Include="WomanPage.aspx" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.0.0-vsdoc.js" />
@@ -237,12 +238,12 @@
     <Compile Include="Anasayfa.Master.designer.cs">
       <DependentUpon>Anasayfa.Master</DependentUpon>
     </Compile>
-    <Compile Include="Anasayfam.aspx.cs">
-      <DependentUpon>Anasayfam.aspx</DependentUpon>
+    <Compile Include="Anasayfa2.aspx.cs">
+      <DependentUpon>Anasayfa2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Anasayfam.aspx.designer.cs">
-      <DependentUpon>Anasayfam.aspx</DependentUpon>
+    <Compile Include="Anasayfa2.aspx.designer.cs">
+      <DependentUpon>Anasayfa2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Favorilerim.aspx.cs">
       <DependentUpon>Favorilerim.aspx</DependentUpon>
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="Giris.aspx.designer.cs">
       <DependentUpon>Giris.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="KatErkek.aspx.cs">
       <DependentUpon>KatErkek.aspx</DependentUpon>

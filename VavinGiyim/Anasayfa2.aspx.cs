@@ -7,12 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace VavinGiyim
 {
-    public partial class KatKadin : System.Web.UI.Page
+    public partial class Anasayfa2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-      
     }
 }
