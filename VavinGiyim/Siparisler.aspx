@@ -155,8 +155,8 @@ display:block;
 
             <div ID="Part2" style="width:100%; display:inline; padding-left:3%; background-color:white; " >
       <a href="Anasayfa2.aspx" style="text-decoration:none; text-decoration-color:black; color:black;"> <label style="font-size:40px; color:black; width:16%; height:44px;">VAVİN</label></a>
-             <a style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
-             <a style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
+             <a href="Favorilerim.aspx" style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
+             <a href="Siparisler.aspx " style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
                               
                  
                  </div>
@@ -237,13 +237,13 @@ display:block;
          <a style="margin-left:0%;"> <asp:ImageButton ID="SifreDegistir"  OnClick="MusteriBilgileriB_Click"   runat="server"   src="/images/SifreDegistir.png" Width="100%" Height="75px"   /> </a><br /><br />
          <a style="margin-left:0%;"> <asp:ImageButton ID="Cikis"  OnClick="Cikis_Click"   runat="server"   src="/images/Cikis.png" Width="100%" Height="75px"   /> </a><br /><br /><br />
 
-         <h1 style="margin-left:1%;">Hesabım-Favorileri Ürünlerim</h1> <br />
+         <h1 style="margin-left:1%;">Hesabım-Sipariş Ürünlerim</h1> <br />
          
          <center>
     <div style=" width:95%; height:40px; display:block;  background-color:#FFE2F1; ">
-         <label id="txtfav">! Henüz Siparişiniz Bulunmamaktadır.</label>
-    </div>
-            <label>Toplam = </label><label></label><label> TL</label></center>
+           <asp:Label ID="txtU" runat="server" Text="Label" Height="20px"  Font-Size="20px">! Siparişiniz Yok</asp:Label>&nbsp; <label style="font-size:20px;"> TL</label>
+    </div>  
+           &nbsp;<asp:Label ID="lblfiyat" runat="server" Text="Label"> </asp:Label></center>
          </div>
 
        <div style="padding-top:2%;  width:100%; height:100%;">

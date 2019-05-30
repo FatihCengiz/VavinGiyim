@@ -157,6 +157,24 @@ namespace VavinGiyim {
         protected global::System.Web.UI.WebControls.ImageButton Cikis;
         
         /// <summary>
+        /// txtU denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label txtU;
+        
+        /// <summary>
+        /// lblfiyat denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblfiyat;
+        
+        /// <summary>
         /// Yellow_Part denetimi.
         /// </summary>
         /// <remarks>

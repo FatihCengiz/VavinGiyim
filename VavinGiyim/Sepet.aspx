@@ -156,8 +156,8 @@ display:block;
 
             <div ID="Part2" style="width:100%; display:inline; padding-left:3%; background-color:white; " >
       <a href="Anasayfa2.aspx" style="text-decoration:none; text-decoration-color:black; color:black;"> <label style="font-size:40px; color:black; width:16%; height:44px;">VAVİN</label></a>
-             <a style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
-             <a style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet1"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
+             <a href="Favorilerim.aspx" style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
+             <a href="Siparisler.aspx " style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet1"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
                               
                  
                  </div>
@@ -233,7 +233,7 @@ display:block;
         <center>
             <asp:Label ID="txturun" runat="server" Text="Label">Urun</asp:Label><br />
             <asp:Label ID="txtadet" runat="server" Text="Label">Adet</asp:Label><br />
-          <asp:Label ID="txtfiyat" runat="server" Text="Label">Fiyat</asp:Label><br />     
+          <asp:Label ID="txtfiyat" runat="server" Text="Label">Fiyat</asp:Label> &nbsp;<label>  TL</label><br />     
             <asp:Label ID="txtbeden" runat="server" Text="Label">Beden</asp:Label><br />
             <asp:Label ID="txtkart" runat="server" Text="Label">Kart Numarası</asp:Label><br />
             <asp:TextBox ID="cardnum" runat="server" style="height:35px; width:90%; margin-right:1%;margin-left:2%;" ></asp:TextBox>

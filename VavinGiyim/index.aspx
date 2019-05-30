@@ -154,9 +154,9 @@ display:block;
 
 
             <div ID="Part2" style="width:100%; display:inline; padding-left:3%; background-color:white; " >
-      <a href="Anasayfa2.aspx" style="text-decoration:none; text-decoration-color:black; color:black;"> <label style="font-size:40px; color:black; width:16%; height:44px;">VAVİN</label></a>
-             <a style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
-             <a style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
+      <a href="index.aspx" style="text-decoration:none; text-decoration-color:black; color:black;"> <label style="font-size:40px; color:black; width:16%; height:44px;">VAVİN</label></a>
+             <a href="UyeOl.aspx" style="text-decoration:none; margin-left:63%;">  <asp:Image ID="Kalp" runat="server" Height="42px"   src="/images/Kalp.png" Width="55px"  /></a> 
+             <a href="Giris.aspx" style="text-decoration:none; margin-left:3%;">  <asp:Image ID="Sepet"  runat="server" Height="42px"   src="/images/Sepet.png" Width="55px"  /></a>
                               
                  
                  </div>
@@ -235,9 +235,9 @@ display:block;
             <br /> 
          
             
-     <center>         <asp:Image ID="A_Resim2"  runat="server"   src="/images/A_Resim2.png" Width="98%" Height="500px"   />  </center>
-          <br />                                                                    
-      <center>        <asp:Image ID="A_Resim3"  runat="server"   src="/images/A_Resim3.png" Width="98%" Height="450px"   />  </center>
+     <center>     <a href="KatErkek.aspx">    <asp:Image ID="A_Resim2"  runat="server"   src="/images/A_Resim2.png" Width="98%" Height="500px"   /></a>  </center>
+          <br />                                                                     
+      <center>    <a href="KatKadin.aspx">  <asp:Image ID="A_Resim3"  runat="server"   src="/images/A_Resim3.png" Width="98%" Height="450px"   /></a>     </center>
           <br />                                                                   
        <center>       <asp:Image ID="A_Resim4"  runat="server"   src="/images/A_Resim4.png" Width="98%" Height="430px"   /> </center>
           <br />                                                                  

@@ -11,6 +11,8 @@ namespace VavinGiyim
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            txtU.Text = Request.QueryString["Urun"];
+            lblfiyat.Text = Request.QueryString["Fiyat"];
 
         }
         protected void MusteriBilgileriB_Click(object sender, ImageClickEventArgs e)
